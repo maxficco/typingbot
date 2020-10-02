@@ -24,7 +24,6 @@ while True:
             time.sleep(speed)
         except:
             onedown = 1
-            speed = speed * 0.75
             actions = ActionChains(driver)
             time.sleep(5)
             actions.send_keys(Keys.RETURN)
@@ -40,7 +39,6 @@ while True:
             time.sleep(speed)
         except:
             onedown = 0
-            speed = speed * 0.75
             actions = ActionChains(driver)
             time.sleep(5)
             actions.send_keys(Keys.RETURN)
